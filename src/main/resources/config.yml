@@ -1,0 +1,19 @@
+#Cooldown in seconds
+cooldown: 300
+
+#Check if the item is in the fountain every X amount of ticks
+#Default = 3
+check-every-ticks: 3
+
+#The max amount of times to check if the coin is in the fountain
+#Default = 100
+max-ticks-to-check: 100
+
+#Chance for an event to happen. value/100 chance
+#Default = 0.5
+chance: 0.5
+
+#List of potential commands that can be run when an award is given
+#<player> = player to give reward to
+commands:
+  - "mycommand <player>"

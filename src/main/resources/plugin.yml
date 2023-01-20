@@ -1,0 +1,7 @@
+name: FountainOfFortune
+version: '${project.version}'
+main: me.chesspiece.fof.FountainOfFortune
+api-version: 1.18
+commands:
+  fountain:
+    permission: fountain.admin
